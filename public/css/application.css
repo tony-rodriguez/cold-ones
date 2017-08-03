@@ -3,10 +3,12 @@ body {
   font-family: 'VT323', monospace;
 }
 
+
+
 .site-title {
   display: inline-block;
   margin-left: 50px;
-  vertical-align: text-bottom;
+  vertical-align: middle;
   font-size: 6em;
 }
 
@@ -47,4 +49,20 @@ header {
 
 .main-content {
   margin-top: 150px;
+}
+
+.user-form {
+  margin: 20% auto;
+  border: 2px solid black;
+  padding: 15px;
+  width: 15%;
+}
+
+.user-form * {
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:hover {
+  color: #b6c4db;
 }
