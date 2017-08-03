@@ -1,0 +1,50 @@
+body {
+  background-color: #eaeae1;
+  font-family: 'VT323', monospace;
+}
+
+.site-title {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: text-bottom;
+  font-size: 6em;
+}
+
+.site-title a {
+  color: #eaeae1;
+  text-decoration: none;
+}
+
+header {
+  background-color: #4b4f56;
+  height: 150px;
+  width: 100%;
+  margin: 0 auto;
+  top: 0;
+  position: fixed;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list a {
+  color: #eaeae1;
+  font-size: 2em;
+  text-decoration: none;
+
+}
+
+.banner-img {
+  float: left;
+}
+
+.site-nav {
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+}
+
+.main-content {
+  margin-top: 150px;
+}
