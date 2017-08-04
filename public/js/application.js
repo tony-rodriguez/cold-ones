@@ -1,7 +1,14 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+  $(".cold-one-form").on("aubmit", function(e) {
+    e.preventDefault();
+    $form = $(this);
+    zip = $form.find('input[name="zip"]').val();
+    $.ajax({
+      url: 'cold_one',
+      data(zip: zip)
+    }).done(function(response) {
+      $(".main-content").append("<p>" + response + "</p>")
+    })
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  })
 });

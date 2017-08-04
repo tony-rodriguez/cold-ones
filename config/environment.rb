@@ -21,7 +21,7 @@ require "sinatra/reloader" if development?
 require 'erb'
 
 require 'bcrypt'
-require 'dotenv'
+require 'dotenv/load'
 
 ActiveRecord::Base.establish_connection(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
