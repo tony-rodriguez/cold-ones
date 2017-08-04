@@ -49,10 +49,11 @@ header {
 
 .main-content {
   margin-top: 150px;
+  text-align: center;
 }
 
 .user-form {
-  margin: 20% auto;
+  margin: 250px auto;
   border: 2px solid black;
   padding: 15px;
   width: 15%;
@@ -63,6 +64,33 @@ header {
   text-align: center;
 }
 
+.about {
+  margin: 250px auto;
+  width: 20%;
+  text-align: center;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.about a {
+  color: #4b4f56;
+}
+
+#cold-one-button {
+  margin: 250px auto;
+  text-align: center;
+  width: 235px;
+  height: 75px;
+  font-size: 2em;
+  color: #4b4f56
+}
+
+#cold-one-button:hover {
+  background-color: #b6c4db;
+}
+
 a:hover {
   color: #b6c4db;
 }
+
+*, a:hover {cursor: url(http://cur.cursors-4u.net/cursors/cur-6/cur558.cur), progress !important;}
